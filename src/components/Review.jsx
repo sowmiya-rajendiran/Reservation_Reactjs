@@ -48,7 +48,8 @@ const RestaurantReviews = ({ restaurantId }) => {
                         {r.photos.map((photo, i) => (
                         <img
                             key={i}
-                            src={`http://localhost:3005/uploads/${r.photos[i]}`}
+                            // src={`http://localhost:3005/uploads/${r.photos[i]}`}
+                            src={`https://reservation-nodejs.onrender.com/uploads/${r.photos[i]}`}
                             alt="review"
                             className="w-24 h-24 object-cover rounded"
                             onError={(e) => {

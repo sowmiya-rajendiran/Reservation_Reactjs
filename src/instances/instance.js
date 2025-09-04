@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const baseURL = `https://password-reset-nodejs-fb4t.onrender.com/api/v1/users`;
-const baseURL = `http://localhost:3005/api`;
+const baseURL = `https://reservation-nodejs.onrender.com/api`;
+// const baseURL = `http://localhost:3005/api`;
 
 let Instance = axios.create({
     baseURL,
