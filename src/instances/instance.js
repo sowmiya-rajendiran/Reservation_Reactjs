@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = `https://reservation-nodejs.onrender.com/api`;
+const baseURL = `https://reservation-nodejs.onrender.com`;
 // const baseURL = `http://localhost:3005/api`;
 
 let Instance = axios.create({
