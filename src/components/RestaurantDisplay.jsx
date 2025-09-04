@@ -20,8 +20,8 @@ function RestaurantDisplay({restaurant , onReserve}){
                 <img
                     className="h-[300px] w-[400px] object-cover m-auto rounded-t-[10px]"
                     // src={restaurant.photos[0]}
-                    // src={`http://localhost:3005${restaurant.photos[0]}`}
-                    src={`https://reservation-nodejs.onrender.com${restaurant.photos[0]}`}
+                    src={`http://localhost:3005${restaurant.photos[0]}`}
+                    // src={`https://reservation-nodejs.onrender.com${restaurant.photos[0]}`}
                     alt={restaurant.name}
                     onError={(e) => {
                         e.target.onerror = null;

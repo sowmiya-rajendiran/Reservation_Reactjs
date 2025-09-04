@@ -52,8 +52,8 @@ function RestaurantDetails() {
                             <img
                                 key={idx}
                                 // src={photo}
-                                // src={`http://localhost:3005${photo}`}
-                                src={`https://reservation-nodejs.onrender.com${photo}`}
+                                src={`http://localhost:3005${photo}`}
+                                // src={`https://reservation-nodejs.onrender.com${photo}`}
                                 alt={name}
                                 className="rounded-lg shadow-md w-full md:h-100 h-70 object-cover"
                                 onError={(e) => {

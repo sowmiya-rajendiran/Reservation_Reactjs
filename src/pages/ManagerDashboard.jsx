@@ -119,8 +119,8 @@ export default function ManagerDashboard() {
               >
                 <div className="flex items-start gap-4">
                   <img
-                    // src={`http://localhost:3005${r.photos?.[0] || "/uploads/no-image.png"}`}
-                    src={`https://reservation-nodejs.onrender.com${r.photos?.[0] || "/uploads/no-image.png"}`}
+                    src={`http://localhost:3005${r.photos?.[0] || "/uploads/no-image.png"}`}
+                    // src={`https://reservation-nodejs.onrender.com${r.photos?.[0] || "/uploads/no-image.png"}`}
                     alt={r.name}
                     className="w-20 h-20 object-cover rounded-lg"
                   />
