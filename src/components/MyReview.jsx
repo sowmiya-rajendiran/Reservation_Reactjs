@@ -199,8 +199,8 @@ const MyReviews = () => {
                       {myReview.photos.map((photo, idx) => (
                         <img
                           key={idx}
-                          src={`http://localhost:3005/uploads/${photo}`}
-                          // src={`https://reservation-nodejs.onrender.com/uploads/${photo}`}
+                          // src={`http://localhost:3005/uploads/${photo}`}
+                          src={`https://reservation-nodejs.onrender.com/uploads/${photo}`}
                           alt="review"
                           className="w-20 h-20 object-cover rounded-lg"
                         />
