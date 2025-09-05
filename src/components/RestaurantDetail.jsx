@@ -41,7 +41,7 @@ function RestaurantDetails() {
     return (
         <div>
             <div className="sticky top-0 md:px-[100px] px-[25px] py-[25px] flex justify-between items-center bg-black shadow-lg">
-                <h1 className="sm:text-[15px] text-[20px] font-semibold text-white">
+                <h1 className="md:text-[25px] text-[20px] font-semibold text-white">
                     {name}
                 </h1>
             </div>
